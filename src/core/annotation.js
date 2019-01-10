@@ -624,8 +624,8 @@ class WidgetAnnotation extends Annotation {
     // since it's (most likely) a `Dict` which is non-serializable and will thus
     // cause errors when sending annotations to the main-thread (issue 10347).
     if (data.fieldType === 'Sig') {
-      data.fieldValue = null;
-      this.setFlags(AnnotationFlag.HIDDEN);
+//      data.fieldValue = null;
+//      this.setFlags(AnnotationFlag.HIDDEN);
     }
   }
 
